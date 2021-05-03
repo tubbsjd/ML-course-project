@@ -3,14 +3,6 @@
 
 #data from https://openneuro.org/datasets/ds000030/versions/1.0.0
 
-#qsub -I -q psychipc -l nodes=1:ppn=3,mem=20gb,walltime=2:00:00
-#cd /biomedkc01/disk1/PAK_LAB/user_justin/imaging_ML
-#
-#module load R
-#module load gcc
-#module load python3
-#module load graphviz
-
 #to get the phenotype data
 #wget https://openneuro.org/crn/datasets/ds000030/snapshots/1.0.0/files/participants.tsv
 
@@ -43,14 +35,6 @@
 #q(save = "no")
 
 ###python code
-
-#python3 -m pip install numpy
-#python3 -m pip install tensorflow
-#python3 -m pip install os
-#python3 -m pip install scipy
-#python3 -m pip install pydot
-#python3 -m pip install graphviz
-#python3 -m pip install sklearn
 
 #python3
 
